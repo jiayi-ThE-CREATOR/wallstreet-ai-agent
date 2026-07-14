@@ -1,5 +1,7 @@
 # wallstreet-ai-agent
 
+**简体中文** | [English](README.en.md) | [日本語](README.ja.md)
+
 macOS 上定时抓取各大投行/独立研究机构【官方公开栏目】中与 AI 投资相关的文章，经 Claude 主题深读（中英混合）后通过 [Server酱](https://sct.ftqq.com/) 推送到微信。由 `launchd` 调度。
 
 > 这是 [macos-llm-agents](https://github.com/jiayi-ThE-CREATOR/macos-llm-agents) 的独立拆分仓库，只含这一个 agent（附带独立运行所需的最小工具集），保留原仓库中该 agent 目录的完整提交历史。仓库内不含任何密钥——私人配置以 `.env.example` 模板入库，真身由 `.gitignore` 排除。
