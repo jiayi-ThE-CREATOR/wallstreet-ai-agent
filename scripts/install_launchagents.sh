@@ -26,4 +26,4 @@ done
 
 echo ""
 echo "Done — $count launchd agent(s) (re)installed from repo."
-echo "Verify: launchctl list | grep -E 'com\\.(financial_news|brain_science|notes_sync|daily_brief|wallstreet_ai)\\.'"
+echo "Verify: launchctl list | grep 'com\\.wallstreet_ai\\.'"
